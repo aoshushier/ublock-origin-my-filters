@@ -1,0 +1,86 @@
+! YouTube
+  ! related
+  youtube.com###related
+  m.youtube.com##ytm-item-section-renderer[data-content-type$="related"]
+
+  ! buttons
+  youtube.com##.ytp-button.ytp-next-button
+  youtube.com##.ytp-button.ytp-miniplayer-button
+  !youtube.com##.ytp-button.ytp-size-button
+  !youtube.com##.ytp-button[aria-label="Play on TV"]
+
+  ! embeds
+  youtube.com##.ytp-player-content.videowall-endscreen
+  youtube-nocookie.com##.ytp-pause-overlay
+
+  ! recommended
+  youtube.com###title:has-text(Recommended):nth-ancestor(2)
+  m.youtube.com##[tab-identifier="FEwhat_to_watch" i]:nth-ancestor(2)
+  ! search ads
+  m.youtube.com##ytm-promoted-sparkles-text-search-renderer:nth-ancestor(2)
+
+! Facebook
+  !facebook.com###pagelet_ego_pane
+  !www.facebook.com###pagelet_marketplace_new_user_top_picks_rhc1
+  www.facebook.com###GroupsRHCSuggestionSection
+
+  ! suggested groups
+  www.facebook.com###pagelet_ego_contextual_group
+
+  ! Invite members to group
+  www.facebook.com##span:has-text(Invite Members):nth-ancestor(1)
+  www.facebook.com##.groupRHCAddMemberTypeaheadBox
+  www.facebook.com##h6:has-text(Suggested Members):nth-ancestor(4)
+  www.facebook.com##h6:has-text(Invite Friends):nth-ancestor(4)
+  !www.facebook.com##.groupRHCAddMemberTypeaheadBox:nth-ancestor(4)
+
+  ! New desktop layout
+    ! header buttons
+    facebook.com##a[aria-label="Watch"]:nth-ancestor(3)
+    facebook.com##a[aria-label="Marketplace"]:nth-ancestor(3)
+    facebook.com##a[aria-label="Gaming"]:nth-ancestor(3)
+    facebook.com##a[aria-label="More"]:nth-ancestor(3)
+    facebook.com##div[aria-label="Create"]:nth-ancestor(2)
+    facebook.com##a[aria-label="Facebook"]:nth-ancestor(1)
+
+! Twitter - right sidebar (except Search)
+twitter.com##[aria-label$="Trending now"]:nth-ancestor(4)
+twitter.com##[aria-label="Who to follow"]:nth-ancestor(1)
+
+! Medium - recommended
+medium.com##h2:has-text(More From Medium):nth-ancestor(4)
+
+! MyAnimeList
+myanimelist.net##.mal-ad-unit
+myanimelist.net##.banner-header-anime-straming
+myanimelist.net##.btn-mal-service
+myanimelist.net##.footer-link-icon-block
+myanimelist.net##.banner-footer-anime-streaming
+
+! Audiobook Bay - ads
+audiobookbay.nl##[href="/dl-14-days-trial"]
+audiobookbay.nl##[href^="/dl-now"]
+
+! MyAnonaMouse
+www.myanonamouse.net##header
+
+! otter.ai - prevent popup errors
+@@||otter.ai/assets/img/svg-icons/*$xhr,1p
+
+!News
+  www.nytimes.com###credential_picker_container
+
+  ! News sidebars
+  www.dailymail.co.uk##.item.femail
+  www.dailymail.co.uk##.beta
+  www.thesun.co.uk###sidebar
+  www.slant.co###dp-container
+  www.businessinsider.com###l-rightrail
+
+! https://www.deezer.com
+www.deezer.com##.abp-banner-container
+www.deezer.com##.naboo > .modal
+www.deezer.com##.page-alerts
+
+! https://www.rottentomatoes.com
+www.rottentomatoes.com###FeaturedSection
