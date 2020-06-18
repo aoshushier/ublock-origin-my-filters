@@ -44,8 +44,21 @@
     facebook.com##a[aria-label="Facebook"]:nth-ancestor(1)
 
 ! Twitter - right sidebar (except Search)
-twitter.com##[aria-label$="Trending now"]:nth-ancestor(4)
-twitter.com##[aria-label="Who to follow"]:nth-ancestor(1)
+twitter.com##[aria-label$="trending now" i]:nth-ancestor(2)
+twitter.com##[aria-label="who to follow" i]:nth-ancestor(1)
+twitter.com##[aria-label="relevant people" i]
+
+!https://old.reddit.com/r/uBlockOrigin/comments/cix6c5/twitter_who_to_follow_trouble_making_a_filter_to/
+!twitter.com##div[aria-label$="Tweets"] [data-testid="UserCell"]
+!twitter.com##div[aria-label$="Your Home Timeline"] [data-testid="UserCell"]
+!twitter.com##div[aria-label$="Liked"] [data-testid="UserCell"]
+!twitter.com##div[aria-label$="Retweeted"] [data-testid="UserCell"]
+!twitter.com##div[aria-label^="Timeline"] div [role="heading"]:has-text(Who to follow)
+!twitter.com##div[aria-label^="Timeline"] [href^="/i/related_users"]
+!twitter.com##div[aria-label^="Timeline"]  > div > div :has-text(Who to follow)
+!twitter.com##div[aria-label^="Timeline"] div:matches-css(height:10px)
+!twitter.com##div[aria-label^="Timeline"] div:matches-css(height:1px)
+!twitter.com##div[data-testid="sidebarColumn"] aside[role="complementary"][aria-label="Who to follow"] div:nth-ancestor(2)
 
 ! Medium - recommended
 medium.com##h2:has-text(More From Medium):nth-ancestor(4)
@@ -57,7 +70,7 @@ myanimelist.net##.btn-mal-service
 myanimelist.net##.footer-link-icon-block
 myanimelist.net##.banner-footer-anime-streaming
 
-! Audiobook Bay - ads
+! Audiobook Bay ads
 audiobookbay.nl##[href="/dl-14-days-trial"]
 audiobookbay.nl##[href^="/dl-now"]
 
@@ -77,10 +90,26 @@ www.myanonamouse.net##header
   www.slant.co###dp-container
   www.businessinsider.com###l-rightrail
 
-! https://www.deezer.com
+! Deezer
 www.deezer.com##.abp-banner-container
 www.deezer.com##.naboo > .modal
 www.deezer.com##.page-alerts
 
-! https://www.rottentomatoes.com
+! RottenTomatoes
 www.rottentomatoes.com###FeaturedSection
+
+! SweetAlert2 nsfw sponsors
+sweetalert2.github.io##[href="#sponsors"]
+sweetalert2.github.io##div.sponsors
+sweetalert2.github.io##[href="#nsfw-sponsors"]
+sweetalert2.github.io###nsfw-sponsors
+
+! Google ads (for Brave browser)
+www.google.com###tads
+
+! Flaticon ads
+www.flaticon.com###sponsor-partner
+
+! icons8.com ads
+icons8.com##.ads
+icons8.com##.grid-section.custoam-padding.app-page-section > .istock-widget
