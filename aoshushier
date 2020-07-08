@@ -46,9 +46,11 @@
     facebook.com##h3>div:has-text(Sponsored):nth-ancestor(8)
 
 ! Twitter - right sidebar (except Search)
+twitter.com##[aria-label="relevant people" i]
+twitter.com##[aria-label$="trending now" i]
+twitter.com##[aria-label="who to follow" i]
 twitter.com##[aria-label$="trending now" i]:nth-ancestor(2)
 twitter.com##[aria-label="who to follow" i]:nth-ancestor(1)
-twitter.com##[aria-label="relevant people" i]
 
 !https://old.reddit.com/r/uBlockOrigin/comments/cix6c5/twitter_who_to_follow_trouble_making_a_filter_to/
 !twitter.com##div[aria-label$="Tweets"] [data-testid="UserCell"]
