@@ -67,6 +67,12 @@ twitter.com##[aria-label="who to follow" i]:nth-ancestor(1)
 ! Medium - recommended
 medium.com##h2:has-text(More From Medium):nth-ancestor(4)
 
+! LinkedIn - promoted posts in feed
+linkedin.com#?#.feed-shared-update:-abp-contains(Promoted)
+linkedin.com##.ad-banner
+linkedin.com#?#.feed-shared-update-v2:-abp-contains(Promoted)
+linkedin.com##iframe[src=”about:blank”]
+
 ! MyAnimeList
 myanimelist.net##.mal-ad-unit
 myanimelist.net##.banner-header-anime-straming
