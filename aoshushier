@@ -67,7 +67,7 @@ twitter.com##[aria-label="who to follow" i]:nth-ancestor(1)
 ! Medium - recommended
 medium.com##h2:has-text(More From Medium):nth-ancestor(4)
 
-! LinkedIn - promoted posts in feed
+! LinkedIn - promoted posts in feed https://identityunderground.wordpress.com/2018/10/29/note-to-self-blocking-promoted-feed-from-your-linkedin-page-with-adblock-plus-for-edge-firefox-chrome-not-ie/
 linkedin.com#?#.feed-shared-update:-abp-contains(Promoted)
 linkedin.com##.ad-banner
 linkedin.com#?#.feed-shared-update-v2:-abp-contains(Promoted)
