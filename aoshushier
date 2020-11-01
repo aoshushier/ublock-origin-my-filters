@@ -40,7 +40,7 @@
     facebook.com##a[aria-label="Marketplace"]:nth-ancestor(3)
     facebook.com##a[aria-label="Gaming"]:nth-ancestor(3)
     facebook.com##a[aria-label="More"]:nth-ancestor(3)
-    facebook.com##div[aria-label="Create"]:nth-ancestor(2)
+    !facebook.com##div[aria-label="Create"]:nth-ancestor(2)
     facebook.com##a[aria-label="Facebook"]:nth-ancestor(1)
     
     facebook.com##h3>div:has-text(Sponsored):nth-ancestor(8)
