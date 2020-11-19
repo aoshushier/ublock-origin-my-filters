@@ -129,6 +129,10 @@ icons8.com##.grid-section.custoam-padding.app-page-section > .istock-widget
 ! Timewasters:
 ||boredpanda.com
 
+
+
+!!! unblock elements - https://www.technipages.com/how-to-unblock-a-web-page-element-with-ublock-origin
+
 ! TikTok - shows profile info
 www.tiktok.com#@#.share-title
 www.tiktok.com#@#.share-links
@@ -136,3 +140,9 @@ www.tiktok.com#@#.share-header
 www.tiktok.com#@#.share-group
 www.tiktok.com#@#.share-container
 www.tiktok.com#@#.follow-button
+
+! Circle - shows profile info
+circle.so#@##icon-twitter
+circle.so#@##icon-instagram
+circle.so#@##icon-facebook
+
