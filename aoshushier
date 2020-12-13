@@ -11,8 +11,9 @@
 
   ! embeds
   youtube.com##.ytp-player-content.videowall-endscreen
-  youtube-nocookie.com##.ytp-pause-overlay
   youtube.com##.ytp-related-on-error-overlay
+  youtube-nocookie.com##.ytp-pause-overlay
+  youtube-nocookie.com##.ytp-videowall-still-info
 
   ! recommended
   youtube.com###title:has-text(Recommended):nth-ancestor(2)
