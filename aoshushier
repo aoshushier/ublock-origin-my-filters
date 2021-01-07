@@ -12,6 +12,7 @@
   ! embeds
   youtube.com##.ytp-player-content.videowall-endscreen
   youtube.com##.ytp-related-on-error-overlay
+  youtube.com##.ytp-pause-overlay
   youtube-nocookie.com##.ytp-pause-overlay
   youtube-nocookie.com##.ytp-videowall-still-info
 
