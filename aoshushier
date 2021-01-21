@@ -48,37 +48,41 @@
     
     facebook.com##h3>div:has-text(Sponsored):nth-ancestor(8)
 
-! Twitter - right sidebar (except Search)
-twitter.com##[aria-label="relevant people" i]
-!twitter.com##[aria-label$="trending now" i]
-!twitter.com##[aria-label="who to follow" i]
-!twitter.com##[aria-label$="trending now" i]:nth-ancestor(2)
-!twitter.com##[aria-label="who to follow" i]:nth-ancestor(1)
+! Twitter
+  ! right sidebar (except Search)
+  twitter.com##[aria-label="relevant people" i]
+  !twitter.com##[aria-label$="trending now" i]
+  !twitter.com##[aria-label="who to follow" i]
+  !twitter.com##[aria-label$="trending now" i]:nth-ancestor(2)
+  !twitter.com##[aria-label="who to follow" i]:nth-ancestor(1)
 
-! from https://chrome.google.com/webstore/detail/hide-twitter-trends/lapmncfnibdclongbkleadoicnkhknia/related?hl=en
-twitter.com##[aria-label="Timeline: Trending now" i]
-twitter.com##[aria-label="Who to follow" i]
-twitter.com##[aria-label="الخطّ الزمنيّ: المتداوَل الآن" i]
-twitter.com##[aria-label="اقتراحات المتابعة" i]
-twitter.com##[aria-label="Oś czasu: Aktualne trendy" i]
-twitter.com##[aria-label="Warci obserwowania" i]
-twitter.com##[aria-label="Timeline: Assuntos do momento" i]
-twitter.com##[aria-label="Quem seguir" i]
-twitter.com##[aria-label="タイムライン: トレンド" i]
-twitter.com##[aria-label="おすすめユーザー" i]
-twitter.com##div[data-testid="sidebarColumn" i].css-1dbjc4n.r-1uaug3w.r-1uhd6vh.r-1867qdf.r-1phboty.r-rs99b7.r-ku1wi2.r-1bro5k0.r-1udh08x
+  ! from https://chrome.google.com/webstore/detail/hide-twitter-trends/lapmncfnibdclongbkleadoicnkhknia/related?hl=en
+  twitter.com##[aria-label="Timeline: Trending now" i]
+  twitter.com##[aria-label="Who to follow" i]
+  twitter.com##[aria-label="الخطّ الزمنيّ: المتداوَل الآن" i]
+  twitter.com##[aria-label="اقتراحات المتابعة" i]
+  twitter.com##[aria-label="Oś czasu: Aktualne trendy" i]
+  twitter.com##[aria-label="Warci obserwowania" i]
+  twitter.com##[aria-label="Timeline: Assuntos do momento" i]
+  twitter.com##[aria-label="Quem seguir" i]
+  twitter.com##[aria-label="タイムライン: トレンド" i]
+  twitter.com##[aria-label="おすすめユーザー" i]
+  twitter.com##div[data-testid="sidebarColumn" i].css-1dbjc4n.r-1uaug3w.r-1uhd6vh.r-1867qdf.r-1phboty.r-rs99b7.r-ku1wi2.r-1bro5k0.r-1udh08x
 
-!https://old.reddit.com/r/uBlockOrigin/comments/cix6c5/twitter_who_to_follow_trouble_making_a_filter_to/
-!twitter.com##div[aria-label$="Tweets"] [data-testid="UserCell"]
-!twitter.com##div[aria-label$="Your Home Timeline"] [data-testid="UserCell"]
-!twitter.com##div[aria-label$="Liked"] [data-testid="UserCell"]
-!twitter.com##div[aria-label$="Retweeted"] [data-testid="UserCell"]
-!twitter.com##div[aria-label^="Timeline"] div [role="heading"]:has-text(Who to follow)
-!twitter.com##div[aria-label^="Timeline"] [href^="/i/related_users"]
-!twitter.com##div[aria-label^="Timeline"]  > div > div :has-text(Who to follow)
-!twitter.com##div[aria-label^="Timeline"] div:matches-css(height:10px)
-!twitter.com##div[aria-label^="Timeline"] div:matches-css(height:1px)
-!twitter.com##div[data-testid="sidebarColumn"] aside[role="complementary"][aria-label="Who to follow"] div:nth-ancestor(2)
+  !https://old.reddit.com/r/uBlockOrigin/comments/cix6c5/twitter_who_to_follow_trouble_making_a_filter_to/
+  !twitter.com##div[aria-label$="Tweets"] [data-testid="UserCell"]
+  !twitter.com##div[aria-label$="Your Home Timeline"] [data-testid="UserCell"]
+  !twitter.com##div[aria-label$="Liked"] [data-testid="UserCell"]
+  !twitter.com##div[aria-label$="Retweeted"] [data-testid="UserCell"]
+  !twitter.com##div[aria-label^="Timeline"] div [role="heading"]:has-text(Who to follow)
+  !twitter.com##div[aria-label^="Timeline"] [href^="/i/related_users"]
+  !twitter.com##div[aria-label^="Timeline"]  > div > div :has-text(Who to follow)
+  !twitter.com##div[aria-label^="Timeline"] div:matches-css(height:10px)
+  !twitter.com##div[aria-label^="Timeline"] div:matches-css(height:1px)
+  !twitter.com##div[data-testid="sidebarColumn"] aside[role="complementary"][aria-label="Who to follow"] div:nth-ancestor(2)
+
+  ! Promoted Who To Follow
+  twitter.com##span:has-text(Promoted):nth-ancestor(7)
 
 ! Medium - recommended
 medium.com##h2:has-text(More From Medium):nth-ancestor(4)
