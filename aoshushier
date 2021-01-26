@@ -82,7 +82,7 @@
   !twitter.com##div[data-testid="sidebarColumn"] aside[role="complementary"][aria-label="Who to follow"] div:nth-ancestor(2)
 
   ! Promoted Who To Follow
-  twitter.com##span:has-text(Promoted):nth-ancestor(7)
+  twitter.com##span:has-text(Promoted):nth-ancestor(6)
 
 ! Medium - recommended
 medium.com##h2:has-text(More From Medium):nth-ancestor(4)
