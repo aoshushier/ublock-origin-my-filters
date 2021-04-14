@@ -2,6 +2,7 @@
   ! related
   youtube.com###related
   m.youtube.com##ytm-item-section-renderer[data-content-type$="related"]
+  youtube.com###.ytp-autonav-endscreen-countdown-container
 
   ! buttons
   youtube.com##.ytp-button.ytp-next-button
