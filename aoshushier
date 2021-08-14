@@ -22,6 +22,12 @@
   m.youtube.com##[tab-identifier="FEwhat_to_watch" i]:nth-ancestor(2)
   ! search ads
   m.youtube.com##ytm-promoted-sparkles-text-search-renderer:nth-ancestor(2)
+  
+  ! search results clutter
+  www.youtube.com###badges > .badge > span:has-text(New):nth-ancestor(5)
+  www.youtube.com##h2 > #title:has-text(People also watched):nth-ancestor(4)
+  www.youtube.com##h2 > #title:has-text(For you):nth-ancestor(4)
+  www.youtube.com##h2 > #title:has-text(Previously watched):nth-ancestor(4)
 
 ! Facebook
   !facebook.com###pagelet_ego_pane
