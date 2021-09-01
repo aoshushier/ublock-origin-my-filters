@@ -38,7 +38,7 @@
   www.facebook.com###pagelet_ego_contextual_group
   
   ! "suggested for you" in news feed
-  www.facebook.com##[data-pagelet] > span:has-text(Suggested for you)
+  www.facebook.com##span:has-text(Suggested for you):nth-ancestor(18)
 
   ! Invite members to group
   www.facebook.com##span:has-text(Invite Members):nth-ancestor(1)
