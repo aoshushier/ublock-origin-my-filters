@@ -93,6 +93,10 @@
 
   ! Promoted Who To Follow
   twitter.com##span:has-text(Promoted):nth-ancestor(6)
+  
+  ! More Tweets https://www.reddit.com/r/uBlockOrigin/comments/m3ej0z/how_do_i_block_the_more_tweets_section_in_twitter/
+  twitter.com##h2:has-text(/More Tweets/i):upward(3)
+  twitter.com##h2:has-text(/More Tweets/i):upward(3) ~ div
 
 ! Medium - recommended
 medium.com##h2:has-text(More From Medium):nth-ancestor(4)
