@@ -97,6 +97,11 @@
   ! More Tweets https://www.reddit.com/r/uBlockOrigin/comments/m3ej0z/how_do_i_block_the_more_tweets_section_in_twitter/
   !twitter.com##h2:has-text(/More Tweets/i):upward(3)
   !twitter.com##h2:has-text(/More Tweets/i):upward(3) ~ div
+  
+  ! https://www.reddit.com/r/uBlockOrigin/wiki/solutions#wiki_twitter
+  ! More Tweets https://www.reddit.com/r/uBlockOrigin/comments/uvnp72/remove_tweets_on_twitter_below_show_more_replies/i9s234j/
+  twitter.com##[aria-label="Timeline: Conversation"] h2>div>span:has-text(/^More Tweets$/):upward([style^="transform"])
+  twitter.com##[aria-label="Timeline: Conversation"] h2>div>span:has-text(/^More Tweets$/):upward([style^="transform"])~div
 
 ! Medium - recommended
 medium.com##h2:has-text(More From Medium):nth-ancestor(4)
