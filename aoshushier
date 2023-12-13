@@ -65,6 +65,7 @@
   !twitter.com##[aria-label="who to follow" i]
   !twitter.com##[aria-label$="trending now" i]:nth-ancestor(2)
   !twitter.com##[aria-label="who to follow" i]:nth-ancestor(1)
+  twitter.com##[aria-label="Subscribe to Premium" i]
 
   ! from https://chrome.google.com/webstore/detail/hide-twitter-trends/lapmncfnibdclongbkleadoicnkhknia/related?hl=en
   twitter.com##[aria-label="Timeline: Trending now" i]
